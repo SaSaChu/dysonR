@@ -1,1 +1,212 @@
-﻿@font-face{font-family:"Monaco";src:url('/oaf2e/font/monaco/monaco.ttf?1439651096') format('truetype'),url('/oaf2e/font/monaco/monaco.otf?1439651096') format('opentype')}*,*:after,*:before{vertical-align:top;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;-moz-osx-font-smoothing:antialiased;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;-ms-font-smoothing:antialiased;-o-font-smoothing:antialiased}*::-moz-selection,*:after::-moz-selection,*:before::-moz-selection{color:#fff;background-color:#96c8ff}*::selection,*:after::selection,*:before::selection{color:#fff;background-color:#96c8ff}html{height:100%}html body{position:relative;display:inline-block;text-align:center;margin:0;width:100%;height:100%;font-size:medium;font-family:Monaco, "微軟正黑體", "Microsoft JhengHei";background:#fff url('/oaf2e/img/bg/grunge.png');color:rgba(50,50,50,0.8);-moz-osx-font-smoothing:antialiased;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;-ms-font-smoothing:antialiased;-o-font-smoothing:antialiased}html body #container{position:relative;display:block;margin:0 auto;max-width:1200px;padding:0 10px}@media screen and (min-width: 1200px){html body #container{padding:0}}
+@charset "UTF-8";
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+@font-face {
+  font-family: "Monaco";
+  src: url('/oaf2e/font/monaco/monaco.ttf?1457875218') format('truetype'), url('/oaf2e/font/monaco/monaco.otf?1457875218') format('opentype');
+}
+*, *:after, *:before {
+  vertical-align: top;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+*::-moz-selection, *:after::-moz-selection, *:before::-moz-selection {
+  color: white;
+  background-color: #96c8ff;
+}
+*::selection, *:after::selection, *:before::selection {
+  color: white;
+  background-color: #96c8ff;
+}
+
+html {
+  height: 100%;
+}
+html body {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-size: medium;
+  font-family: "微軟正黑體", Monaco,  "Microsoft JhengHei";
+  background: white;
+  color: rgba(50, 50, 50, 0.8);
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+html header {
+  width: 100%;
+}
+html header > div {
+  margin: 0 auto;
+  width: 1140px;
+  height: 100%;
+}
+html header > div .ta {
+  height: 145px;
+  border-bottom: 3px solid #282828;
+  padding-top: 25px;
+}
+html header > div .ta img {
+  margin: 0 auto;
+  height: auto;
+  max-width: 100%;
+}
+html header > div .tb {
+  margin: 0 auto;
+  width: 50%;
+  height: 80px;
+  *zoom: 1;
+}
+html header > div .tb:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+html header > div .tb > div {
+  float: left;
+  width: calc(100% / 3);
+  height: 100%;
+  padding-top: 30px;
+  text-align: center;
+}
+html header > div .tb > div a {
+  display: block;
+  font-size: 1em;
+  color: #5b5b5b;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+html header > div .tb > div a:hover {
+  color: #c93e8d;
+  border-bottom: 3px solid #c93e8d;
+}
+html header > div .tb > div .tba {
+  color: #c93e8d;
+  border-bottom: 3px solid #c93e8d;
+}
+html header > div .tb > div + div a {
+  position: relative;
+}
+html header > div .tb > div + div a:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  width: 1px;
+  height: 100%;
+  background-color: #8f8f8f;
+}
+html header > div .tc {
+  height: 900px;
+  background-image: url(../img/pic.png);
+  background-repeat: no-repeat;
+  background-color: #faf8f9;
+}
+html header > div .tc .bigtitlebox {
+  width: 50%;
+  float: right;
+  padding: 45px 45px 0 0;
+}
+html header > div .tc .bigtitlebox img {
+  width: auto;
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+html header > div .tc .bigtitlebox p {
+  font-size: 3.2em;
+  color: black;
+  padding: 10px 0;
+  margin: 20px 0;
+  border-top: 2px solid #c93e8d;
+}
+html footer {
+  width: 100%;
+  margin-top: 80px;
+}
+html footer > div {
+  margin: 0 auto;
+  width: 1140px;
+  height: 90px;
+  border-top: 3px solid #282828;
+  padding-top: 25px;
+  *zoom: 1;
+}
+html footer > div:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+html footer > div .a {
+  float: left;
+  width: 355px;
+  height: 56px;
+}
+html footer > div .a img {
+  height: auto;
+  max-width: 100%;
+}
+html footer > div span {
+  line-height: 64px;
+  float: left;
+  font-size: 0.7em;
+  padding: 0 13px;
+  color: #333333;
+}
