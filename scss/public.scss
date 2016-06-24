@@ -143,6 +143,7 @@ html {
 
       @include clearfix();
 
+
       .rtitle {
         width: 100%;
         margin-top: 50px;
@@ -180,6 +181,8 @@ html {
         }
       }
 
+
+
       .mbtn {
         margin: 50px 0;
 
@@ -208,7 +211,58 @@ html {
             margin-right: 10px;
           }
         }
+
+        p {
+          margin: 45px 0;
+          font-size: 1.6em;
+          line-height: 1.8em;
+          color: black;
+        }
+
+        img {
+          width: auto;
+          height : auto;
+          max-height: 100%;
+          max-width: 100%;
+        }
       }
+
+
+      .debox {
+        margin: 45px 0;
+
+        @include split-left(25%, '.e', '.f');
+        .e {
+          height: 56px;
+          font-size: 1.2em;
+          font-weight: bolder;
+          line-height: 2em;
+          color: black;
+          padding: 7px 0;
+          border-bottom: 3px solid rgba(201, 62, 142, 1.00);
+
+          img {
+            width: auto;
+            height : auto;
+            max-height: 100%;
+            max-width: 100%;
+
+            margin-right:15px;
+          }
+
+        }
+
+        .f {
+          height: 55px;
+          text-align: left;
+          font-size: 1.2em;
+          color: black;
+
+          padding: 15px 15px;
+          border-bottom: 1px solid rgba(201, 62, 142, 1.00);
+        }
+      }
+
 
       .mcc {
         margin-top: 50px;
