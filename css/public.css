@@ -44,9 +44,28 @@
  * @copyright   Copyright (c) 2016 OA Wu Design
  */
 @font-face {
-  font-family: "Monaco";
-  src: url('/oaf2e/font/monaco/monaco.ttf?1457875218') format('truetype'), url('/oaf2e/font/monaco/monaco.otf?1457875218') format('opentype');
+  font-family: "icomoon";
+  src: url('/oaf2e/font/icomoon/icomoon.eot?1464949318') format('embedded-opentype'), url('/oaf2e/font/icomoon/icomoon.woff?1464949318') format('woff'), url('/oaf2e/font/icomoon/icomoon.ttf?1464949318') format('truetype'), url('/oaf2e/font/icomoon/icomoon.svg?1464949318') format('svg');
 }
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon', "Roboto", "微軟正黑體", 'Monaco';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+
+.icon-checkbox-checked:before {
+  content: "\e907";
+}
+
 *, *:after, *:before {
   vertical-align: top;
   -moz-box-sizing: border-box;
@@ -78,7 +97,7 @@ html body {
   width: 100%;
   height: 100%;
   font-size: medium;
-  font-family: "微軟正黑體", Monaco,  "Microsoft JhengHei";
+  font-family: "Roboto", "微軟正黑體", Monaco,  "Microsoft JhengHei";
   background: white;
   color: rgba(50, 50, 50, 0.8);
   -moz-osx-font-smoothing: antialiased;
@@ -175,6 +194,101 @@ html header > div .tc .bigtitlebox p {
   padding: 10px 0;
   margin: 20px 0;
   border-top: 2px solid #c93e8d;
+}
+html #middle {
+  width: 100%;
+}
+html #middle > div {
+  margin: 0 auto;
+  width: 1140px;
+  height: 100%;
+  *zoom: 1;
+}
+html #middle > div:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+html #middle > div .rtitle {
+  width: 100%;
+  margin-top: 50px;
+  position: relative;
+}
+html #middle > div .rtitle .bpink {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 2em;
+  color: #c83d8d;
+  border: 2px solid #c83d8d;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+}
+html #middle > div .rtitle:before {
+  display: inline-block;
+  content: '';
+  position: absolute;
+  top: 32px;
+  left: 0px;
+  width: 22.5%;
+  border-bottom: 1px solid #c83d8d;
+}
+html #middle > div .rtitle:after {
+  display: inline-block;
+  content: '';
+  position: absolute;
+  top: 32px;
+  right: 0;
+  width: 22.5%;
+  border-bottom: 1px solid #c83d8d;
+}
+html #middle > div .mbtn {
+  margin: 50px 0;
+}
+html #middle > div .mbtn a {
+  display: inline-block;
+  width: 300px;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 1.6em;
+  color: white;
+  text-decoration: none;
+  background-color: #c83d8d;
+  border-bottom: 5px solid #a22d70;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+html #middle > div .mbtn a:hover {
+  background-color: #a22d70;
+  border-bottom: 5px solid #c83d8d;
+}
+html #middle > div .mbtn a:before {
+  display: inline-block;
+  margin-right: 10px;
+}
+html #middle > div .mcc {
+  margin-top: 50px;
+  height: 100%;
+  border-top: 1px solid #e3e5e5;
+  padding-bottom: 15px;
+}
+html #middle > div .mcc > div {
+  display: block;
+  width: 100%;
+  padding: 15px 0 0 0;
+  font-size: 1em;
+  font-weight: bolder;
+  color: #ca3d90;
+  text-align: left;
+}
+html #middle > div .mcc .mcca {
+  font-size: .8em;
+  color: #727272;
+  text-align: left;
+  line-height: 2em;
 }
 html footer {
   width: 100%;
