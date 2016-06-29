@@ -86,531 +86,1083 @@
   background-color: #96c8ff;
 }
 
-html {
-  height: 100%;
-}
-html body {
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  font-size: medium;
-  font-family: "Roboto", "微軟正黑體", Monaco,  "Microsoft JhengHei";
-  background: white;
-  color: rgba(50, 50, 50, 0.8);
-  -moz-osx-font-smoothing: antialiased;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -ms-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-}
-html header {
-  width: 100%;
-}
-html header > div {
-  margin: 0 auto;
-  width: 1140px;
-  height: 100%;
-}
-html header > div .ta {
-  height: 145px;
-  border-bottom: 3px solid #282828;
-  padding-top: 25px;
-}
-html header > div .ta img {
-  margin: 0 auto;
-  height: auto;
-  max-width: 100%;
-}
-html header > div .tb {
-  margin: 0 auto;
-  width: 50%;
-  height: 80px;
-  *zoom: 1;
-}
-html header > div .tb:after {
-  display: table;
-  content: "";
-  line-height: 0;
-  clear: both;
-}
-html header > div .tb > div {
-  float: left;
-  width: calc(100% / 3);
-  height: 100%;
-  padding-top: 30px;
-  text-align: center;
-}
-html header > div .tb > div a {
-  display: block;
-  font-size: 1em;
-  color: #5b5b5b;
-  text-decoration: none;
-  padding-bottom: 5px;
-}
-html header > div .tb > div a:hover {
-  color: #c93e8d;
-  border-bottom: 3px solid #c93e8d;
-}
-html header > div .tb > div .tba {
-  color: #c93e8d;
-  border-bottom: 3px solid #c93e8d;
-}
-html header > div .tb > div + div a {
-  position: relative;
-}
-html header > div .tb > div + div a:before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  display: inline-block;
-  width: 1px;
-  height: 100%;
-  background-color: #8f8f8f;
-}
-html header > div .tc {
-  height: 900px;
-  background-image: url(../img/pic.png);
-  background-repeat: no-repeat;
-  background-color: #faf8f9;
-}
-html header > div .tc .bigtitlebox {
-  width: 50%;
-  float: right;
-  padding: 45px 45px 0 0;
-}
-html header > div .tc .bigtitlebox img {
-  width: auto;
-  height: auto;
-  max-height: 100%;
-  max-width: 100%;
-}
-html header > div .tc .bigtitlebox p {
-  font-size: 3.2em;
-  color: black;
-  padding: 10px 0;
-  margin: 20px 0;
-  border-top: 2px solid #c93e8d;
-}
-html #middle {
-  width: 100%;
-}
-html #middle > div {
-  margin: 0 auto;
-  width: 1140px;
-  height: 100%;
-  *zoom: 1;
-}
-html #middle > div:after {
-  display: table;
-  content: "";
-  line-height: 0;
-  clear: both;
-}
-html #middle > div .pagetitle {
-  border-top: 5px solid #c83d8d;
-  border-bottom: 5px solid #c83d8d;
-}
-html #middle > div .pagetitle p {
-  font-size: 2em;
-  color: black;
-  margin: 20px 0;
-}
-html #middle > div .rtitle {
-  width: 100%;
-  margin-top: 50px;
-  position: relative;
-}
-html #middle > div .rtitle .bpink {
-  display: inline-block;
-  margin: 0 auto;
-  padding: 10px;
-  font-size: 2em;
-  color: #c83d8d;
-  border: 2px solid #c83d8d;
-  -moz-border-radius: 30px;
-  -webkit-border-radius: 30px;
-  border-radius: 30px;
-}
-html #middle > div .rtitle:before {
-  display: inline-block;
-  content: '';
-  position: absolute;
-  top: 32px;
-  left: 0px;
-  width: 22.5%;
-  border-bottom: 1px solid #c83d8d;
-}
-html #middle > div .rtitle:after {
-  display: inline-block;
-  content: '';
-  position: absolute;
-  top: 32px;
-  right: 0;
-  width: 22.5%;
-  border-bottom: 1px solid #c83d8d;
-}
-html #middle > div .mbtn {
-  margin: 50px 0;
-}
-html #middle > div .mbtn a {
-  display: inline-block;
-  width: 300px;
-  padding: 10px;
-  font-weight: bolder;
-  font-size: 1.6em;
-  color: white;
-  text-decoration: none;
-  background-color: #c83d8d;
-  border-bottom: 5px solid #a22d70;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-}
-html #middle > div .mbtn a:hover {
-  background-color: #a22d70;
-  border-bottom: 5px solid #c83d8d;
-}
-html #middle > div .mbtn a:before {
-  display: inline-block;
-  margin-right: 10px;
-}
-html #middle > div .mbtn p {
-  margin: 45px 0;
-  font-size: 1.6em;
-  line-height: 1.8em;
-  color: black;
-}
-html #middle > div .mbtn img {
-  width: auto;
-  height: auto;
-  max-height: 100%;
-  max-width: 100%;
-}
-html #middle > div .debox {
-  margin: 40px 0;
-  *zoom: 1;
-  *zoom: 1;
-}
-html #middle > div .debox:after {
-  display: table;
-  content: "";
-  line-height: 0;
-  clear: both;
-}
-html #middle > div .debox .e, html #middle > div .debox .f {
-  float: left;
-  position: relative;
-  display: inline-block;
-}
-html #middle > div .debox .f {
-  float: right;
-}
-html #middle > div .debox .e {
-  width: 20%;
-}
-html #middle > div .debox .f {
-  width: calc(100% - 20%);
-}
-html #middle > div .debox .e {
-  float: left;
-  padding: 7px 25px;
-  border-bottom: 3px solid #c93e8e;
-}
-html #middle > div .debox .e img {
-  float: left;
-  height: auto;
-  max-width: 100%;
-}
-html #middle > div .debox .e p {
-  display: inline-block;
-  float: left;
-  margin: 8px 0;
-  padding-left: 15px;
-  font-size: 1.2em;
-  font-weight: bolder;
-  text-align: left;
-  color: black;
-}
-html #middle > div .debox .f {
-  text-align: left;
-  margin-top: 10px;
-  border-bottom: 1px solid #c93e8e;
-}
-html #middle > div .debox .f p {
-  margin: 0;
-  padding-left: 15px;
-  line-height: 2.4em;
-  font-size: 1.2em;
-  color: black;
-}
-html #middle > div .debox .f .fome {
-  padding-left: 6px;
-  line-height: 2.5em;
-  font-size: 1.1em;
-  color: black;
-  background-color: transparent;
-  border: 0;
-}
-html #middle > div .debox:after {
-  display: table;
-  content: "";
-  line-height: 0;
-  clear: both;
-}
-html #middle > div .debox .g, html #middle > div .debox .h {
-  float: left;
-  position: relative;
-  display: inline-block;
-}
-html #middle > div .debox .h {
-  float: right;
-}
-html #middle > div .debox .g {
-  width: 28%;
-}
-html #middle > div .debox .h {
-  width: calc(100% - 28%);
-}
-html #middle > div .debox .g {
-  float: left;
-  padding: 7px 25px;
-  border-bottom: 3px solid #c93e8e;
-}
-html #middle > div .debox .g img {
-  float: left;
-  height: auto;
-  max-width: 100%;
-}
-html #middle > div .debox .g p {
-  display: inline-block;
-  float: left;
-  margin: 13px 0;
-  padding-left: 15px;
-  font-size: 1.4em;
-  line-height: 1.4em;
-  font-weight: bolder;
-  text-align: left;
-  color: black;
-}
-html #middle > div .debox .h {
-  text-align: left;
-  font-size: 1.2em;
-  color: black;
-  padding: 16px 15px;
-  border-bottom: 1px solid #c93e8e;
-  *zoom: 1;
-}
-html #middle > div .debox .h:after {
-  display: table;
-  content: "";
-  line-height: 0;
-  clear: both;
-}
-html #middle > div .debox .h .h01 {
-  margin: 7px 0;
-  float: left;
-  width: 50%;
-}
-html #middle > div .debox .h .h01 div {
-  text-align: center;
-  font-size: 1.4em;
-  font-weight: bolder;
-  line-height: 2em;
-  padding-top: 5px;
-  color: #c83e8e;
-}
-html #middle > div .debox .h .h01 div p {
-  margin: 0;
-  display: inline-block;
-  padding: 0 15px;
-  font-size: 1.8em;
-  text-decoration: underline;
-}
-html #middle > div .debox .h button {
-  float: left;
-  display: inline-block;
-  width: 50%;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  border-color: transparent;
-  border-bottom: 8px solid #9d1a6c;
-  background-color: #c83e8e;
-  font-size: 1.4em;
-  font-weight: bolder;
-  color: white;
-  padding: 18px 10px;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-}
-html #middle > div .debox .h button:focus {
-  outline: 0;
-}
-html #middle > div .debox .h button:hover {
-  background-color: #9d1a6c;
-  border-bottom: 8px solid #c83e8e;
-}
-html #middle > div .debox .h button:before {
-  display: inline-block;
-  margin-right: 10px;
-}
-html #middle > div .debox .h .btnover {
-  float: left;
-  display: inline-block;
-  width: 50%;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  border-color: transparent;
-  border-bottom: 8px solid #3d3d3d;
-  background-color: #828081;
-  font-size: 1.4em;
-  font-weight: bolder;
-  color: white;
-  padding: 16px 10px;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-}
-html #middle > div .debox .h .btnover:focus {
-  outline: 0;
-}
-html #middle > div .debox .h .gybg {
-  display: block;
-  background-color: #dfdfdf;
-  padding: 7px;
-}
-html #middle > div .debox .h .gybg p {
-  margin: 0;
-  font-size: 1.2em;
-  color: black;
-}
-html #middle > div .dpic img {
-  width: auto;
-  height: auto;
-  max-height: 100%;
-  max-width: 100%;
-}
-html #middle > div .mcc {
-  margin-top: 50px;
-  height: 100%;
-  border-top: 1px solid #e3e5e5;
-  padding-bottom: 15px;
-}
-html #middle > div .mcc > div {
-  display: block;
-  width: 100%;
-  padding: 15px 0 0 0;
-  font-size: 1em;
-  font-weight: bolder;
-  color: #ca3d90;
-  text-align: left;
-}
-html #middle > div .mcc .mcca {
-  font-size: .8em;
-  color: #727272;
-  text-align: left;
-  line-height: 2em;
-}
-html #middle > div .linebox {
-  border-bottom: 1px solid #e3e3e3;
-}
-html #middle > div .linebox p {
-  margin: 0;
-  font-size: 1.4em;
-  font-weight: bolder;
-  color: black;
-  padding: 50px 0;
-}
-html #middle > div .bb {
-  width: 100%;
-  padding-top: 50px;
-}
-html #middle > div .bb.cc {
-  padding-top: 5px;
-  padding-bottom: 50px;
-}
-html #middle > div .bb button, html #middle > div .bb a {
-  display: inline-block;
-  padding: 10px 15px;
-  margin: 0 10px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  border-color: transparent;
-  border-bottom: 8px solid #9d1a6c;
-  background-color: #c83e8e;
-  font-size: 1.4em;
-  font-weight: bolder;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-}
-html #middle > div .bb button:focus, html #middle > div .bb a:focus {
-  outline: 0;
-}
-html #middle > div .bb button:hover, html #middle > div .bb a:hover {
-  border-bottom: 8px solid #c83e8e;
-  background-color: #9d1a6c;
-}
-html #middle > div .gg {
-  padding-top: 40px;
-  padding-bottom: 5px;
-  width: 100%;
-  font-size: 1.4em;
-  line-height: 1.6em;
-  font-weight: bolder;
-  text-align: left;
-}
-html #middle > div .gg p.black {
-  display: inline-block;
-  margin: 0;
-  color: black;
-}
-html #middle > div .gg p.pink {
-  display: inline-block;
-  margin: 0;
-  padding-top: 35px;
-  padding-left: 10px;
-  color: #c33282;
-}
-html footer {
-  width: 100%;
-  margin-top: 80px;
-}
-html footer > div {
-  margin: 0 auto;
-  width: 1140px;
-  height: 90px;
-  border-top: 3px solid #282828;
-  padding-top: 25px;
-  *zoom: 1;
-}
-html footer > div:after {
-  display: table;
-  content: "";
-  line-height: 0;
-  clear: both;
-}
-html footer > div .a {
-  float: left;
-  width: 355px;
-  height: 56px;
-}
-html footer > div .a img {
-  height: auto;
-  max-width: 100%;
-}
-html footer > div span {
-  line-height: 64px;
-  float: left;
-  font-size: 0.7em;
-  padding: 0 13px;
-  color: #333333;
+@media screen and (min-width: 0px) and (max-width: 960px) {
+  html {
+    height: 100%;
+  }
+  html body {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-size: medium;
+    font-family: "Roboto", "微軟正黑體", Monaco,  "Microsoft JhengHei";
+    background: white;
+    color: rgba(50, 50, 50, 0.8);
+    -moz-osx-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+  }
+  html header {
+    width: 100%;
+  }
+  html header > div {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+  }
+  html header > div .ta {
+    height: 100%;
+    border-bottom: 3px solid #282828;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  html header > div .ta img {
+    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
+  }
+  html header > div .tb {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 100%;
+    height: 80px;
+    *zoom: 1;
+  }
+  html header > div .tb:after {
+    display: table;
+    content: "";
+    line-height: 0;
+    clear: both;
+  }
+  html header > div .tb > div {
+    float: left;
+    width: calc(100% / 3);
+    height: 100%;
+    padding-top: 30px;
+    text-align: center;
+  }
+  html header > div .tb > div a {
+    display: block;
+    font-size: .8em;
+    color: #5b5b5b;
+    text-decoration: none;
+    padding-bottom: 5px;
+  }
+  html header > div .tb > div a:hover {
+    color: #c93e8d;
+    border-bottom: 3px solid #c93e8d;
+  }
+  html header > div .tb > div .tba {
+    color: #c93e8d;
+    border-bottom: 3px solid #c93e8d;
+  }
+  html header > div .tb > div + div a {
+    position: relative;
+  }
+  html header > div .tb > div + div a:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    width: 1px;
+    height: 100%;
+    background-color: #8f8f8f;
+  }
+  html header > div .tc {
+    height: 380px;
+    background-image: url(../img/pic.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #faf8f9;
+    position: relative;
+  }
+  html header > div .tc .bigtitlebox {
+    width: 100%;
+    float: right;
+    padding: 0 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  html header > div .tc .bigtitlebox img {
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  html header > div .tc .bigtitlebox p {
+    font-size: 1.6em;
+    color: black;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-top: 2px solid #c93e8d;
+  }
+  html #middle {
+    width: 100%;
+  }
+  html #middle > div {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    *zoom: 1;
+  }
+  html #middle > div:after {
+    display: table;
+    content: "";
+    line-height: 0;
+    clear: both;
+  }
+  html #middle > div .pagetitle {
+    border-top: 5px solid #c83d8d;
+    border-bottom: 5px solid #c83d8d;
+  }
+  html #middle > div .pagetitle p {
+    padding: 0 10px;
+    font-size: 1.4em;
+    line-height: 1.6em;
+    color: black;
+    margin: 10px 0;
+  }
+  html #middle > div .rtitle {
+    width: 100%;
+    margin-top: 40px;
+    position: relative;
+    padding: 0 10px;
+  }
+  html #middle > div .rtitle .bpink {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 1.4em;
+    line-height: 1.6em;
+    color: #c83d8d;
+    border: 2px solid #c83d8d;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+  }
+  html #middle > div .rtitle:before {
+    display: none;
+    content: '';
+    position: absolute;
+    top: 32px;
+    left: 0px;
+    width: 22.5%;
+    border-bottom: 1px solid #c83d8d;
+  }
+  html #middle > div .rtitle:after {
+    display: none;
+    content: '';
+    position: absolute;
+    top: 32px;
+    right: 0;
+    width: 22.5%;
+    border-bottom: 1px solid #c83d8d;
+  }
+  html #middle > div .mbtn {
+    padding: 0 10px;
+    margin: 40px 0;
+  }
+  html #middle > div .mbtn a {
+    display: inline-block;
+    width: 300px;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: 1.4em;
+    color: white;
+    text-decoration: none;
+    background-color: #c83d8d;
+    border-bottom: 5px solid #a22d70;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  }
+  html #middle > div .mbtn a:hover {
+    background-color: #a22d70;
+    border-bottom: 5px solid #c83d8d;
+  }
+  html #middle > div .mbtn a:before {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  html #middle > div .mbtn p {
+    margin: 30px 0;
+    font-size: 1em;
+    line-height: 1.8em;
+    color: black;
+  }
+  html #middle > div .mbtn img {
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  html #middle > div .debox {
+    margin: 40px 0 0 0;
+    padding: 0 10px;
+    *zoom: 1;
+    *zoom: 1;
+  }
+  html #middle > div .debox:after {
+    display: table;
+    content: "";
+    line-height: 0;
+    clear: both;
+  }
+  html #middle > div .debox .e {
+    width: 100%;
+    float: left;
+    padding: 7px 5px;
+    border-bottom: 3px solid #c93e8e;
+    *zoom: 1;
+  }
+  html #middle > div .debox .e img {
+    float: left;
+    height: auto;
+    max-width: 100%;
+  }
+  html #middle > div .debox .e:after {
+    display: table;
+    content: "";
+    line-height: 0;
+    clear: both;
+  }
+  html #middle > div .debox .e p {
+    display: block;
+    float: left;
+    margin: 8px 0;
+    padding-left: 15px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-align: left;
+    color: black;
+  }
+  html #middle > div .debox .f {
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+    border-bottom: 1px solid #c93e8e;
+    *zoom: 1;
+  }
+  html #middle > div .debox .f:after {
+    display: table;
+    content: "";
+    line-height: 0;
+    clear: both;
+  }
+  html #middle > div .debox .f p {
+    display: block;
+    float: left;
+    margin: 10px 0;
+    padding-left: 5px;
+    line-height: 1.4em;
+    font-size: 1em;
+    color: black;
+  }
+  html #middle > div .debox .f .fome {
+    padding-left: 6px;
+    line-height: 2.5em;
+    font-size: 1.1em;
+    color: black;
+    background-color: transparent;
+    border: 0;
+  }
+  html #middle > div .debox:after {
+    display: table;
+    content: "";
+    line-height: 0;
+    clear: both;
+  }
+  html #middle > div .debox .g {
+    width: 100%;
+    float: left;
+    padding: 7px 10px;
+    border-bottom: 3px solid #c93e8e;
+    *zoom: 1;
+  }
+  html #middle > div .debox .g img {
+    float: left;
+    height: auto;
+    max-width: 100%;
+  }
+  html #middle > div .debox .g:after {
+    display: table;
+    content: "";
+    line-height: 0;
+    clear: both;
+  }
+  html #middle > div .debox .g p {
+    display: inline-block;
+    float: left;
+    margin: 13px 0;
+    padding-left: 10px;
+    font-size: 1.4em;
+    line-height: 1.4em;
+    font-weight: bolder;
+    text-align: left;
+    color: black;
+  }
+  html #middle > div .debox .h {
+    float: left;
+    width: 100%;
+    text-align: left;
+    font-size: 1.2em;
+    color: black;
+    padding: 15px 10px;
+    border-bottom: 1px solid #c93e8e;
+    *zoom: 1;
+  }
+  html #middle > div .debox .h:after {
+    display: table;
+    content: "";
+    line-height: 0;
+    clear: both;
+  }
+  html #middle > div .debox .h .h01 {
+    margin: 7px 0;
+    float: left;
+    width: 100%;
+  }
+  html #middle > div .debox .h .h01 div {
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bolder;
+    line-height: 2em;
+    color: #c83e8e;
+  }
+  html #middle > div .debox .h .h01 div p {
+    margin: 0;
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.4em;
+    text-decoration: underline;
+  }
+  html #middle > div .debox .h button {
+    float: left;
+    display: inline-block;
+    width: 100%;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    border-bottom: 8px solid #9d1a6c;
+    background-color: #c83e8e;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  html #middle > div .debox .h button:focus {
+    outline: 0;
+  }
+  html #middle > div .debox .h button:hover {
+    background-color: #9d1a6c;
+    border-bottom: 8px solid #c83e8e;
+  }
+  html #middle > div .debox .h button:before {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  html #middle > div .debox .h .btnover {
+    float: left;
+    display: inline-block;
+    width: 100%;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    border-bottom: 8px solid #3d3d3d;
+    background-color: #828081;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  html #middle > div .debox .h .btnover:focus {
+    outline: 0;
+  }
+  html #middle > div .debox .h .gybg {
+    display: block;
+    background-color: #dfdfdf;
+    padding: 7px;
+  }
+  html #middle > div .debox .h .gybg p {
+    margin: 0;
+    font-size: 1.2em;
+    color: black;
+  }
+  html #middle > div .dpic {
+    padding: 30px 10px 0 10px;
+  }
+  html #middle > div .dpic img {
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  html #middle > div .mcc {
+    margin-top: 50px;
+    height: 100%;
+    border-top: 1px solid #e3e5e5;
+    padding-bottom: 15px;
+    padding: 0 10px;
+  }
+  html #middle > div .mcc > div {
+    display: block;
+    width: 100%;
+    padding: 15px 0 0 0;
+    font-size: 1em;
+    font-weight: bolder;
+    color: #ca3d90;
+    text-align: left;
+  }
+  html #middle > div .mcc .mcca {
+    font-size: .8em;
+    color: #727272;
+    text-align: left;
+    line-height: 2em;
+  }
+  html #middle > div .linebox {
+    padding: 0 10px;
+    border-bottom: 1px solid #e3e3e3;
+  }
+  html #middle > div .linebox p {
+    margin: 0;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    font-weight: bolder;
+    color: black;
+    padding: 20px 0;
+  }
+  html #middle > div .bb {
+    width: 100%;
+    padding-top: 40px;
+  }
+  html #middle > div .bb.cc {
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  html #middle > div .bb button, html #middle > div .bb a {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    border-bottom: 8px solid #9d1a6c;
+    background-color: #c83e8e;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  html #middle > div .bb button:focus, html #middle > div .bb a:focus {
+    outline: 0;
+  }
+  html #middle > div .bb button:hover, html #middle > div .bb a:hover {
+    border-bottom: 8px solid #c83e8e;
+    background-color: #9d1a6c;
+  }
+  html #middle > div .gg {
+    padding: 0 10px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    width: 100%;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    font-weight: bolder;
+    text-align: left;
+  }
+  html #middle > div .gg p.black {
+    display: inline-block;
+    margin: 0;
+    color: black;
+  }
+  html #middle > div .gg p.pink {
+    display: inline-block;
+    margin: 0;
+    color: #c33282;
+  }
+  html footer {
+    width: 100%;
+    margin-top: 40px;
+  }
+  html footer > div {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    border-top: 3px solid #282828;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    *zoom: 1;
+  }
+  html footer > div:after {
+    display: table;
+    content: "";
+    line-height: 0;
+    clear: both;
+  }
+  html footer > div .a {
+    display: none;
+    float: left;
+    width: 355px;
+    height: 56px;
+  }
+  html footer > div .a img {
+    height: auto;
+    max-width: 100%;
+  }
+  html footer > div span {
+    line-height: 2.2em;
+    float: left;
+    font-size: 0.7em;
+    padding: 0 5px;
+    color: #333333;
+  }
+}
+@media screen and (min-width: 961px) {
+  html {
+    height: 100%;
+  }
+  html body {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-size: medium;
+    font-family: "Roboto", "微軟正黑體", Monaco,  "Microsoft JhengHei";
+    background: white;
+    color: rgba(50, 50, 50, 0.8);
+    -moz-osx-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+  }
+  html header {
+    width: 100%;
+  }
+  html header > div {
+    margin: 0 auto;
+    width: 1140px;
+    height: 100%;
+  }
+  html header > div .ta {
+    height: 145px;
+    border-bottom: 3px solid #282828;
+    padding-top: 25px;
+  }
+  html header > div .ta img {
+    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
+  }
+  html header > div .tb {
+    margin: 0 auto;
+    width: 50%;
+    height: 80px;
+    *zoom: 1;
+  }
+  html header > div .tb:after {
+    display: table;
+    content: "";
+    line-height: 0;
+    clear: both;
+  }
+  html header > div .tb > div {
+    float: left;
+    width: calc(100% / 3);
+    height: 100%;
+    padding-top: 30px;
+    text-align: center;
+  }
+  html header > div .tb > div a {
+    display: block;
+    font-size: 1em;
+    color: #5b5b5b;
+    text-decoration: none;
+    padding-bottom: 5px;
+  }
+  html header > div .tb > div a:hover {
+    color: #c93e8d;
+    border-bottom: 3px solid #c93e8d;
+  }
+  html header > div .tb > div .tba {
+    color: #c93e8d;
+    border-bottom: 3px solid #c93e8d;
+  }
+  html header > div .tb > div + div a {
+    position: relative;
+  }
+  html header > div .tb > div + div a:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    width: 1px;
+    height: 100%;
+    background-color: #8f8f8f;
+  }
+  html header > div .tc {
+    height: 900px;
+    background-image: url(../img/pic.png);
+    background-repeat: no-repeat;
+    background-color: #faf8f9;
+  }
+  html header > div .tc .bigtitlebox {
+    width: 50%;
+    float: right;
+    padding: 45px 45px 0 0;
+  }
+  html header > div .tc .bigtitlebox img {
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  html header > div .tc .bigtitlebox p {
+    font-size: 3.2em;
+    color: black;
+    padding: 10px 0;
+    margin: 20px 0;
+    border-top: 2px solid #c93e8d;
+  }
+  html #middle {
+    width: 100%;
+  }
+  html #middle > div {
+    margin: 0 auto;
+    width: 1140px;
+    height: 100%;
+    *zoom: 1;
+  }
+  html #middle > div:after {
+    display: table;
+    content: "";
+    line-height: 0;
+    clear: both;
+  }
+  html #middle > div .pagetitle {
+    border-top: 5px solid #c83d8d;
+    border-bottom: 5px solid #c83d8d;
+  }
+  html #middle > div .pagetitle p {
+    font-size: 2em;
+    color: black;
+    margin: 20px 0;
+  }
+  html #middle > div .rtitle {
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+  }
+  html #middle > div .rtitle .bpink {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 2em;
+    color: #c83d8d;
+    border: 2px solid #c83d8d;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+  }
+  html #middle > div .rtitle:before {
+    display: inline-block;
+    content: '';
+    position: absolute;
+    top: 32px;
+    left: 0px;
+    width: 22.5%;
+    border-bottom: 1px solid #c83d8d;
+  }
+  html #middle > div .rtitle:after {
+    display: inline-block;
+    content: '';
+    position: absolute;
+    top: 32px;
+    right: 0;
+    width: 22.5%;
+    border-bottom: 1px solid #c83d8d;
+  }
+  html #middle > div .mbtn {
+    margin: 50px 0;
+  }
+  html #middle > div .mbtn a {
+    display: inline-block;
+    width: 300px;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 1.6em;
+    color: white;
+    text-decoration: none;
+    background-color: #c83d8d;
+    border-bottom: 5px solid #a22d70;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  }
+  html #middle > div .mbtn a:hover {
+    background-color: #a22d70;
+    border-bottom: 5px solid #c83d8d;
+  }
+  html #middle > div .mbtn a:before {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  html #middle > div .mbtn p {
+    margin: 45px 0;
+    font-size: 1.6em;
+    line-height: 1.8em;
+    color: black;
+  }
+  html #middle > div .mbtn img {
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  html #middle > div .debox {
+    margin: 40px 0;
+    *zoom: 1;
+    *zoom: 1;
+  }
+  html #middle > div .debox:after {
+    display: table;
+    content: "";
+    line-height: 0;
+    clear: both;
+  }
+  html #middle > div .debox .e, html #middle > div .debox .f {
+    float: left;
+    position: relative;
+    display: inline-block;
+  }
+  html #middle > div .debox .f {
+    float: right;
+  }
+  html #middle > div .debox .e {
+    width: 20%;
+  }
+  html #middle > div .debox .f {
+    width: calc(100% - 20%);
+  }
+  html #middle > div .debox .e {
+    float: left;
+    padding: 7px 25px;
+    border-bottom: 3px solid #c93e8e;
+  }
+  html #middle > div .debox .e img {
+    float: left;
+    height: auto;
+    max-width: 100%;
+  }
+  html #middle > div .debox .e p {
+    display: inline-block;
+    float: left;
+    margin: 8px 0;
+    padding-left: 15px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-align: left;
+    color: black;
+  }
+  html #middle > div .debox .f {
+    text-align: left;
+    margin-top: 10px;
+    border-bottom: 1px solid #c93e8e;
+  }
+  html #middle > div .debox .f p {
+    margin: 0;
+    padding-left: 15px;
+    line-height: 2.4em;
+    font-size: 1.2em;
+    color: black;
+  }
+  html #middle > div .debox .f .fome {
+    padding-left: 6px;
+    line-height: 2.5em;
+    font-size: 1.1em;
+    color: black;
+    background-color: transparent;
+    border: 0;
+  }
+  html #middle > div .debox:after {
+    display: table;
+    content: "";
+    line-height: 0;
+    clear: both;
+  }
+  html #middle > div .debox .g, html #middle > div .debox .h {
+    float: left;
+    position: relative;
+    display: inline-block;
+  }
+  html #middle > div .debox .h {
+    float: right;
+  }
+  html #middle > div .debox .g {
+    width: 28%;
+  }
+  html #middle > div .debox .h {
+    width: calc(100% - 28%);
+  }
+  html #middle > div .debox .g {
+    float: left;
+    padding: 7px 25px;
+    border-bottom: 3px solid #c93e8e;
+  }
+  html #middle > div .debox .g img {
+    float: left;
+    height: auto;
+    max-width: 100%;
+  }
+  html #middle > div .debox .g p {
+    display: inline-block;
+    float: left;
+    margin: 13px 0;
+    padding-left: 15px;
+    font-size: 1.4em;
+    line-height: 1.4em;
+    font-weight: bolder;
+    text-align: left;
+    color: black;
+  }
+  html #middle > div .debox .h {
+    text-align: left;
+    font-size: 1.2em;
+    color: black;
+    padding: 16px 15px;
+    border-bottom: 1px solid #c93e8e;
+    *zoom: 1;
+  }
+  html #middle > div .debox .h:after {
+    display: table;
+    content: "";
+    line-height: 0;
+    clear: both;
+  }
+  html #middle > div .debox .h .h01 {
+    margin: 7px 0;
+    float: left;
+    width: 50%;
+  }
+  html #middle > div .debox .h .h01 div {
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bolder;
+    line-height: 2em;
+    padding-top: 5px;
+    color: #c83e8e;
+  }
+  html #middle > div .debox .h .h01 div p {
+    margin: 0;
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.8em;
+    text-decoration: underline;
+  }
+  html #middle > div .debox .h button {
+    float: left;
+    display: inline-block;
+    width: 50%;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    border-bottom: 8px solid #9d1a6c;
+    background-color: #c83e8e;
+    font-size: 1.4em;
+    font-weight: bolder;
+    color: white;
+    padding: 18px 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  html #middle > div .debox .h button:focus {
+    outline: 0;
+  }
+  html #middle > div .debox .h button:hover {
+    background-color: #9d1a6c;
+    border-bottom: 8px solid #c83e8e;
+  }
+  html #middle > div .debox .h button:before {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  html #middle > div .debox .h .btnover {
+    float: left;
+    display: inline-block;
+    width: 50%;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    border-bottom: 8px solid #3d3d3d;
+    background-color: #828081;
+    font-size: 1.4em;
+    font-weight: bolder;
+    color: white;
+    padding: 16px 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  html #middle > div .debox .h .btnover:focus {
+    outline: 0;
+  }
+  html #middle > div .debox .h .gybg {
+    display: block;
+    background-color: #dfdfdf;
+    padding: 7px;
+  }
+  html #middle > div .debox .h .gybg p {
+    margin: 0;
+    font-size: 1.2em;
+    color: black;
+  }
+  html #middle > div .dpic img {
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  html #middle > div .mcc {
+    margin-top: 50px;
+    height: 100%;
+    border-top: 1px solid #e3e5e5;
+    padding-bottom: 15px;
+  }
+  html #middle > div .mcc > div {
+    display: block;
+    width: 100%;
+    padding: 15px 0 0 0;
+    font-size: 1em;
+    font-weight: bolder;
+    color: #ca3d90;
+    text-align: left;
+  }
+  html #middle > div .mcc .mcca {
+    font-size: .8em;
+    color: #727272;
+    text-align: left;
+    line-height: 2em;
+  }
+  html #middle > div .linebox {
+    border-bottom: 1px solid #e3e3e3;
+  }
+  html #middle > div .linebox p {
+    margin: 0;
+    font-size: 1.4em;
+    font-weight: bolder;
+    color: black;
+    padding: 50px 0;
+  }
+  html #middle > div .bb {
+    width: 100%;
+    padding-top: 50px;
+  }
+  html #middle > div .bb.cc {
+    padding-top: 5px;
+    padding-bottom: 50px;
+  }
+  html #middle > div .bb button, html #middle > div .bb a {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    border-bottom: 8px solid #9d1a6c;
+    background-color: #c83e8e;
+    font-size: 1.4em;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  html #middle > div .bb button:focus, html #middle > div .bb a:focus {
+    outline: 0;
+  }
+  html #middle > div .bb button:hover, html #middle > div .bb a:hover {
+    border-bottom: 8px solid #c83e8e;
+    background-color: #9d1a6c;
+  }
+  html #middle > div .gg {
+    padding-top: 40px;
+    padding-bottom: 5px;
+    width: 100%;
+    font-size: 1.4em;
+    line-height: 1.6em;
+    font-weight: bolder;
+    text-align: left;
+  }
+  html #middle > div .gg p.black {
+    display: inline-block;
+    margin: 0;
+    color: black;
+  }
+  html #middle > div .gg p.pink {
+    display: inline-block;
+    margin: 0;
+    padding-top: 35px;
+    padding-left: 10px;
+    color: #c33282;
+  }
+  html footer {
+    width: 100%;
+    margin-top: 80px;
+  }
+  html footer > div {
+    margin: 0 auto;
+    width: 1140px;
+    height: 90px;
+    border-top: 3px solid #282828;
+    padding-top: 25px;
+    *zoom: 1;
+  }
+  html footer > div:after {
+    display: table;
+    content: "";
+    line-height: 0;
+    clear: both;
+  }
+  html footer > div .a {
+    float: left;
+    width: 355px;
+    height: 56px;
+  }
+  html footer > div .a img {
+    height: auto;
+    max-width: 100%;
+  }
+  html footer > div span {
+    line-height: 64px;
+    float: left;
+    font-size: 0.7em;
+    padding: 0 13px;
+    color: #333333;
+  }
 }
