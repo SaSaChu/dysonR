@@ -210,6 +210,15 @@ html #middle > div:after {
   line-height: 0;
   clear: both;
 }
+html #middle > div .pagetitle {
+  border-top: 5px solid #c83d8d;
+  border-bottom: 5px solid #c83d8d;
+}
+html #middle > div .pagetitle p {
+  font-size: 2em;
+  color: black;
+  margin: 20px 0;
+}
 html #middle > div .rtitle {
   width: 100%;
   margin-top: 50px;
@@ -282,7 +291,8 @@ html #middle > div .mbtn img {
   max-width: 100%;
 }
 html #middle > div .debox {
-  margin: 45px 0;
+  margin: 40px 0;
+  *zoom: 1;
   *zoom: 1;
 }
 html #middle > div .debox:after {
@@ -300,34 +310,191 @@ html #middle > div .debox .f {
   float: right;
 }
 html #middle > div .debox .e {
-  width: 25%;
+  width: 20%;
 }
 html #middle > div .debox .f {
-  width: calc(100% - 25%);
+  width: calc(100% - 20%);
 }
 html #middle > div .debox .e {
-  height: 56px;
-  font-size: 1.2em;
-  font-weight: bolder;
-  line-height: 2em;
-  color: black;
-  padding: 7px 0;
+  float: left;
+  padding: 7px 25px;
   border-bottom: 3px solid #c93e8e;
 }
 html #middle > div .debox .e img {
+  float: left;
+  height: auto;
+  max-width: 100%;
+}
+html #middle > div .debox .e p {
+  display: inline-block;
+  float: left;
+  margin: 8px 0;
+  padding-left: 15px;
+  font-size: 1.2em;
+  font-weight: bolder;
+  text-align: left;
+  color: black;
+}
+html #middle > div .debox .f {
+  text-align: left;
+  margin-top: 10px;
+  border-bottom: 1px solid #c93e8e;
+}
+html #middle > div .debox .f p {
+  margin: 0;
+  padding-left: 15px;
+  line-height: 2.4em;
+  font-size: 1.2em;
+  color: black;
+}
+html #middle > div .debox .f .fome {
+  padding-left: 6px;
+  line-height: 2.5em;
+  font-size: 1.1em;
+  color: black;
+  background-color: transparent;
+  border: 0;
+}
+html #middle > div .debox:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+html #middle > div .debox .g, html #middle > div .debox .h {
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+html #middle > div .debox .h {
+  float: right;
+}
+html #middle > div .debox .g {
+  width: 28%;
+}
+html #middle > div .debox .h {
+  width: calc(100% - 28%);
+}
+html #middle > div .debox .g {
+  float: left;
+  padding: 7px 25px;
+  border-bottom: 3px solid #c93e8e;
+}
+html #middle > div .debox .g img {
+  float: left;
+  height: auto;
+  max-width: 100%;
+}
+html #middle > div .debox .g p {
+  display: inline-block;
+  float: left;
+  margin: 13px 0;
+  padding-left: 15px;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  font-weight: bolder;
+  text-align: left;
+  color: black;
+}
+html #middle > div .debox .h {
+  text-align: left;
+  font-size: 1.2em;
+  color: black;
+  padding: 16px 15px;
+  border-bottom: 1px solid #c93e8e;
+  *zoom: 1;
+}
+html #middle > div .debox .h:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+html #middle > div .debox .h .h01 {
+  margin: 7px 0;
+  float: left;
+  width: 50%;
+}
+html #middle > div .debox .h .h01 div {
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: bolder;
+  line-height: 2em;
+  padding-top: 5px;
+  color: #c83e8e;
+}
+html #middle > div .debox .h .h01 div p {
+  margin: 0;
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 1.8em;
+  text-decoration: underline;
+}
+html #middle > div .debox .h button {
+  float: left;
+  display: inline-block;
+  width: 50%;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border-color: transparent;
+  border-bottom: 8px solid #9d1a6c;
+  background-color: #c83e8e;
+  font-size: 1.4em;
+  font-weight: bolder;
+  color: white;
+  padding: 18px 10px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+html #middle > div .debox .h button:focus {
+  outline: 0;
+}
+html #middle > div .debox .h button:hover {
+  background-color: #9d1a6c;
+  border-bottom: 8px solid #c83e8e;
+}
+html #middle > div .debox .h button:before {
+  display: inline-block;
+  margin-right: 10px;
+}
+html #middle > div .debox .h .btnover {
+  float: left;
+  display: inline-block;
+  width: 50%;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border-color: transparent;
+  border-bottom: 8px solid #3d3d3d;
+  background-color: #828081;
+  font-size: 1.4em;
+  font-weight: bolder;
+  color: white;
+  padding: 16px 10px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+html #middle > div .debox .h .btnover:focus {
+  outline: 0;
+}
+html #middle > div .debox .h .gybg {
+  display: block;
+  background-color: #dfdfdf;
+  padding: 7px;
+}
+html #middle > div .debox .h .gybg p {
+  margin: 0;
+  font-size: 1.2em;
+  color: black;
+}
+html #middle > div .dpic img {
   width: auto;
   height: auto;
   max-height: 100%;
   max-width: 100%;
-  margin-right: 15px;
-}
-html #middle > div .debox .f {
-  height: 55px;
-  text-align: left;
-  font-size: 1.2em;
-  color: black;
-  padding: 15px 15px;
-  border-bottom: 1px solid #c93e8e;
 }
 html #middle > div .mcc {
   margin-top: 50px;
@@ -349,6 +516,69 @@ html #middle > div .mcc .mcca {
   color: #727272;
   text-align: left;
   line-height: 2em;
+}
+html #middle > div .linebox {
+  border-bottom: 1px solid #e3e3e3;
+}
+html #middle > div .linebox p {
+  margin: 0;
+  font-size: 1.4em;
+  font-weight: bolder;
+  color: black;
+  padding: 50px 0;
+}
+html #middle > div .bb {
+  width: 100%;
+  padding-top: 50px;
+}
+html #middle > div .bb.cc {
+  padding-top: 5px;
+  padding-bottom: 50px;
+}
+html #middle > div .bb button, html #middle > div .bb a {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 0 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border-color: transparent;
+  border-bottom: 8px solid #9d1a6c;
+  background-color: #c83e8e;
+  font-size: 1.4em;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+html #middle > div .bb button:focus, html #middle > div .bb a:focus {
+  outline: 0;
+}
+html #middle > div .bb button:hover, html #middle > div .bb a:hover {
+  border-bottom: 8px solid #c83e8e;
+  background-color: #9d1a6c;
+}
+html #middle > div .gg {
+  padding-top: 40px;
+  padding-bottom: 5px;
+  width: 100%;
+  font-size: 1.4em;
+  line-height: 1.6em;
+  font-weight: bolder;
+  text-align: left;
+}
+html #middle > div .gg p.black {
+  display: inline-block;
+  margin: 0;
+  color: black;
+}
+html #middle > div .gg p.pink {
+  display: inline-block;
+  margin: 0;
+  padding-top: 35px;
+  padding-left: 10px;
+  color: #c33282;
 }
 html footer {
   width: 100%;

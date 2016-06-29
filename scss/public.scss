@@ -143,6 +143,17 @@ html {
 
       @include clearfix();
 
+      .pagetitle {
+        border-top: 5px solid rgba(200, 61, 141, 1.00);
+        border-bottom: 5px solid rgba(200, 61, 141, 1.00);
+
+        p {
+          font-size: 2em;
+          color: black;
+          margin: 20px 0;
+        }
+      }
+
 
       .rtitle {
         width: 100%;
@@ -229,40 +240,201 @@ html {
 
 
       .debox {
-        margin: 45px 0;
+        margin: 40px 0;
 
-        @include split-left(25%, '.e', '.f');
+        @include split-left(20%, '.e', '.f');
         .e {
-          height: 56px;
-          font-size: 1.2em;
-          font-weight: bolder;
-          line-height: 2em;
-          color: black;
-          padding: 7px 0;
+          float: left;
+          padding: 7px 25px;
           border-bottom: 3px solid rgba(201, 62, 142, 1.00);
 
           img {
-            width: auto;
-            height : auto;
-            max-height: 100%;
+            float: left;
+            height: auto;
             max-width: 100%;
-
-            margin-right:15px;
           }
 
+          p {
+            display: inline-block;
+            float: left;
+            margin: 8px 0;
+            padding-left: 15px;
+
+            font-size: 1.2em;
+            font-weight: bolder;
+            text-align: left;
+            color: black;
+          }
         }
 
         .f {
-          height: 55px;
+          text-align: left;
+
+          margin-top: 10px;
+          border-bottom: 1px solid rgba(201, 62, 142, 1.00);
+
+          p {
+            margin: 0;
+            padding-left: 15px;
+            line-height: 2.4em;
+            font-size: 1.2em;
+            color: black;
+          }
+
+          .fome {
+            padding-left: 6px;
+            line-height: 2.5em;
+            font-size: 1.1em;
+            color: black;
+            background-color: transparent;
+            border: 0;
+          }
+        }
+
+
+        @include split-left(28%, '.g', '.h');
+
+        .g {
+          float: left;
+          padding: 7px 25px;
+          border-bottom: 3px solid rgba(201, 62, 142, 1.00);
+
+          img {
+            float: left;
+            height: auto;
+            max-width: 100%;
+          }
+
+          p {
+            display: inline-block;
+            float: left;
+            margin: 13px 0;
+            padding-left: 15px;
+
+            font-size: 1.4em;
+            line-height: 1.4em;
+            font-weight: bolder;
+            text-align: left;
+            color: black;
+          }
+        }
+
+        .h {
           text-align: left;
           font-size: 1.2em;
           color: black;
 
-          padding: 15px 15px;
+          padding: 16px 15px;
           border-bottom: 1px solid rgba(201, 62, 142, 1.00);
+
+          @include clearfix();
+
+          .h01 {
+            margin: 7px 0;
+            float: left;
+            width: 50%;
+
+            div {
+              text-align: center;
+              font-size: 1.4em;
+              font-weight: bolder;
+              line-height: 2em;
+              padding-top: 5px;
+              color: rgba(200, 62, 142, 1.00);
+
+              p {
+                margin: 0;
+                display: inline-block;
+                padding: 0 15px;
+                font-size: 1.8em;
+                text-decoration: underline;
+              }
+            }
+          }
+
+          button {
+            float: left;
+            display: inline-block;
+            width: 50%;
+            @include border-radius(10px);
+            border-color: transparent;
+            border-bottom: 8px solid rgba(157, 26, 108, 1.00);
+            background-color: rgba(200, 62, 142, 1.00);
+
+            font-size: 1.4em;
+            font-weight: bolder;
+            color: rgba(255, 255, 255, 1.00);
+            padding: 18px 10px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+
+            &:focus {
+              outline: 0;
+            }
+          }
+
+          button {
+            &:hover {
+              background-color: rgba(157, 26, 108, 1.00);
+              border-bottom: 8px solid rgba(200, 62, 142, 1.00);
+            }
+
+            &:before {
+              display: inline-block;
+              margin-right: 10px;
+            }
+          }
+
+          .btnover {
+            float: left;
+            display: inline-block;
+            width: 50%;
+            @include border-radius(10px);
+            border-color: transparent;
+            border-bottom: 8px solid rgba(61, 61, 61, 1.00);
+            background-color: rgba(130, 128, 129, 1.00);
+
+            font-size: 1.4em;
+            font-weight: bolder;
+            color: white;
+            padding: 16px 10px;
+            text-align: center;
+            text-decoration: none;
+            // 滑鼠游標的形狀
+            cursor: pointer;
+
+            &:focus {
+              // 關注時取消外框
+              outline: 0;
+            }
+          }
+
+          .gybg {
+            display: block;
+            background-color: rgba(223, 223, 223, 1.00);
+            padding: 7px;
+
+            p {
+              margin: 0;
+              font-size: 1.2em;
+              color: black;
+            }
+          }
+
         }
+
       }
 
+
+      .dpic {
+        img {
+          width: auto;
+          height : auto;
+          max-height: 100%;
+          max-width: 100%;
+        }
+      }
 
       .mcc {
         margin-top: 50px;
@@ -287,6 +459,84 @@ html {
           text-align: left;
           line-height: 2em;
         }
+      }
+
+      .linebox {
+        border-bottom: 1px solid rgba(227, 227, 227, 1.00);
+
+        p {
+          margin: 0;
+          font-size: 1.4em;
+          font-weight: bolder;
+          color: black;
+          padding: 50px 0;
+        }
+      }
+
+
+      .bb {
+        width: 100%;
+        padding-top: 50px;
+
+        &.cc {
+          padding-top: 5px;
+          padding-bottom: 50px;
+        }
+
+        button, a{
+          display: inline-block;
+          padding: 10px 15px;
+          margin: 0 10px;
+
+          @include border-radius(10px);
+          border-color: transparent;
+          border-bottom: 8px solid rgba(157, 26, 108, 1.00);
+          background-color: rgba(200, 62, 142, 1.00);
+
+
+          font-size: 1.4em;
+          font-weight: bolder;
+          color: rgba(255, 255, 255, 1.00);
+          text-align: center;
+          text-decoration: none;
+          cursor: pointer;
+
+          &:focus {
+            outline: 0;
+          }
+
+          &:hover {
+            border-bottom: 8px solid rgba(200, 62, 142, 1.00);
+            background-color: rgba(157, 26, 108, 1.00);
+          }
+        }
+
+      }
+
+      .gg {
+        padding-top: 40px;
+        padding-bottom: 5px;
+        width: 100%;
+        font-size: 1.4em;
+        line-height: 1.6em;
+        font-weight: bolder;
+        text-align: left;
+
+        p.black {
+          display: inline-block;
+          margin: 0;
+          color: black;
+        }
+
+        p.pink {
+          display: inline-block;
+          margin: 0;
+          padding-top: 35px;
+          padding-left: 10px;
+          color: rgba(195, 50, 130, 1.00)
+        }
+
+
       }
 
     }
