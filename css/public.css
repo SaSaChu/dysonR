@@ -307,7 +307,6 @@
     margin: 40px 0 0 0;
     padding: 0 10px;
     *zoom: 1;
-    *zoom: 1;
   }
   html #middle > div .debox:after {
     display: table;
@@ -315,25 +314,39 @@
     line-height: 0;
     clear: both;
   }
-  html #middle > div .debox .e {
+  html #middle > div .debox .ct {
+    text-align: left;
+    padding: 15px 0;
+    font-size: 1.2em;
+    color: black;
+    line-height: 1.8em;
+    border-bottom: 1px solid silver;
+  }
+  html #middle > div .debox .z {
+    width: 100%;
+    margin-top: 5px;
+    border-bottom: 1px solid #c93e8e;
+    *zoom: 1;
+  }
+  html #middle > div .debox .z .e {
     width: 100%;
     float: left;
     padding: 7px 5px;
     border-bottom: 3px solid #c93e8e;
     *zoom: 1;
   }
-  html #middle > div .debox .e img {
+  html #middle > div .debox .z .e img {
     float: left;
     height: auto;
     max-width: 100%;
   }
-  html #middle > div .debox .e:after {
+  html #middle > div .debox .z .e:after {
     display: table;
     content: "";
     line-height: 0;
     clear: both;
   }
-  html #middle > div .debox .e p {
+  html #middle > div .debox .z .e p {
     display: block;
     float: left;
     margin: 8px 0;
@@ -343,20 +356,19 @@
     text-align: left;
     color: black;
   }
-  html #middle > div .debox .f {
+  html #middle > div .debox .z .f {
     width: 100%;
     text-align: left;
     margin-top: 20px;
-    border-bottom: 1px solid #c93e8e;
     *zoom: 1;
   }
-  html #middle > div .debox .f:after {
+  html #middle > div .debox .z .f:after {
     display: table;
     content: "";
     line-height: 0;
     clear: both;
   }
-  html #middle > div .debox .f p {
+  html #middle > div .debox .z .f p {
     display: block;
     float: left;
     margin: 10px 0;
@@ -365,7 +377,7 @@
     font-size: 1em;
     color: black;
   }
-  html #middle > div .debox .f .fome {
+  html #middle > div .debox .z .f .fome {
     padding-left: 6px;
     line-height: 2.5em;
     font-size: 1.1em;
@@ -373,31 +385,31 @@
     background-color: transparent;
     border: 0;
   }
-  html #middle > div .debox:after {
+  html #middle > div .debox .z:after {
     display: table;
     content: "";
     line-height: 0;
     clear: both;
   }
-  html #middle > div .debox .g {
+  html #middle > div .debox .z .g {
     width: 100%;
     float: left;
     padding: 7px 10px;
     border-bottom: 3px solid #c93e8e;
     *zoom: 1;
   }
-  html #middle > div .debox .g img {
+  html #middle > div .debox .z .g img {
     float: left;
     height: auto;
     max-width: 100%;
   }
-  html #middle > div .debox .g:after {
+  html #middle > div .debox .z .g:after {
     display: table;
     content: "";
     line-height: 0;
     clear: both;
   }
-  html #middle > div .debox .g p {
+  html #middle > div .debox .z .g p {
     display: inline-block;
     float: left;
     margin: 13px 0;
@@ -408,28 +420,27 @@
     text-align: left;
     color: black;
   }
-  html #middle > div .debox .h {
+  html #middle > div .debox .z .h {
     float: left;
     width: 100%;
     text-align: left;
     font-size: 1.2em;
     color: black;
     padding: 15px 10px;
-    border-bottom: 1px solid #c93e8e;
     *zoom: 1;
   }
-  html #middle > div .debox .h:after {
+  html #middle > div .debox .z .h:after {
     display: table;
     content: "";
     line-height: 0;
     clear: both;
   }
-  html #middle > div .debox .h .h01 {
+  html #middle > div .debox .z .h .h01 {
     margin: 7px 0;
     float: left;
     width: 100%;
   }
-  html #middle > div .debox .h .h01 div {
+  html #middle > div .debox .z .h .h01 div {
     width: 100%;
     text-align: center;
     font-size: 1.2em;
@@ -437,14 +448,14 @@
     line-height: 2em;
     color: #c83e8e;
   }
-  html #middle > div .debox .h .h01 div p {
+  html #middle > div .debox .z .h .h01 div p {
     margin: 0;
     display: inline-block;
     padding: 0 15px;
     font-size: 1.4em;
     text-decoration: underline;
   }
-  html #middle > div .debox .h button {
+  html #middle > div .debox .z .h button {
     float: left;
     display: inline-block;
     width: 100%;
@@ -462,18 +473,18 @@
     text-decoration: none;
     cursor: pointer;
   }
-  html #middle > div .debox .h button:focus {
+  html #middle > div .debox .z .h button:focus {
     outline: 0;
   }
-  html #middle > div .debox .h button:hover {
+  html #middle > div .debox .z .h button:hover {
     background-color: #9d1a6c;
     border-bottom: 8px solid #c83e8e;
   }
-  html #middle > div .debox .h button:before {
+  html #middle > div .debox .z .h button:before {
     display: inline-block;
     margin-right: 10px;
   }
-  html #middle > div .debox .h .btnover {
+  html #middle > div .debox .z .h .btnover {
     float: left;
     display: inline-block;
     width: 100%;
@@ -491,15 +502,15 @@
     text-decoration: none;
     cursor: pointer;
   }
-  html #middle > div .debox .h .btnover:focus {
+  html #middle > div .debox .z .h .btnover:focus {
     outline: 0;
   }
-  html #middle > div .debox .h .gybg {
+  html #middle > div .debox .z .h .gybg {
     display: block;
     background-color: #dfdfdf;
     padding: 7px;
   }
-  html #middle > div .debox .h .gybg p {
+  html #middle > div .debox .z .h .gybg p {
     margin: 0;
     font-size: 1.2em;
     color: black;
@@ -843,40 +854,52 @@
   }
   html #middle > div .debox {
     margin: 40px 0;
+  }
+  html #middle > div .debox .ct {
+    text-align: left;
+    padding: 15px 0;
+    font-size: 1.2em;
+    color: black;
+    line-height: 1.8em;
+    border-bottom: 1px solid silver;
+  }
+  html #middle > div .debox .z {
+    margin-top: 5px;
+    border-bottom: 1px solid #c93e8e;
     *zoom: 1;
     *zoom: 1;
   }
-  html #middle > div .debox:after {
+  html #middle > div .debox .z:after {
     display: table;
     content: "";
     line-height: 0;
     clear: both;
   }
-  html #middle > div .debox .e, html #middle > div .debox .f {
+  html #middle > div .debox .z .e, html #middle > div .debox .z .f {
     float: left;
     position: relative;
     display: inline-block;
   }
-  html #middle > div .debox .f {
+  html #middle > div .debox .z .f {
     float: right;
   }
-  html #middle > div .debox .e {
+  html #middle > div .debox .z .e {
     width: 20%;
   }
-  html #middle > div .debox .f {
+  html #middle > div .debox .z .f {
     width: calc(100% - 20%);
   }
-  html #middle > div .debox .e {
+  html #middle > div .debox .z .e {
     float: left;
     padding: 7px 25px;
     border-bottom: 3px solid #c93e8e;
   }
-  html #middle > div .debox .e img {
+  html #middle > div .debox .z .e img {
     float: left;
     height: auto;
     max-width: 100%;
   }
-  html #middle > div .debox .e p {
+  html #middle > div .debox .z .e p {
     display: inline-block;
     float: left;
     margin: 8px 0;
@@ -886,19 +909,18 @@
     text-align: left;
     color: black;
   }
-  html #middle > div .debox .f {
+  html #middle > div .debox .z .f {
     text-align: left;
     margin-top: 10px;
-    border-bottom: 1px solid #c93e8e;
   }
-  html #middle > div .debox .f p {
+  html #middle > div .debox .z .f p {
     margin: 0;
     padding-left: 15px;
     line-height: 2.4em;
     font-size: 1.2em;
     color: black;
   }
-  html #middle > div .debox .f .fome {
+  html #middle > div .debox .z .f .fome {
     padding-left: 6px;
     line-height: 2.5em;
     font-size: 1.1em;
@@ -906,37 +928,37 @@
     background-color: transparent;
     border: 0;
   }
-  html #middle > div .debox:after {
+  html #middle > div .debox .z:after {
     display: table;
     content: "";
     line-height: 0;
     clear: both;
   }
-  html #middle > div .debox .g, html #middle > div .debox .h {
+  html #middle > div .debox .z .g, html #middle > div .debox .z .h {
     float: left;
     position: relative;
     display: inline-block;
   }
-  html #middle > div .debox .h {
+  html #middle > div .debox .z .h {
     float: right;
   }
-  html #middle > div .debox .g {
+  html #middle > div .debox .z .g {
     width: 28%;
   }
-  html #middle > div .debox .h {
+  html #middle > div .debox .z .h {
     width: calc(100% - 28%);
   }
-  html #middle > div .debox .g {
+  html #middle > div .debox .z .g {
     float: left;
     padding: 7px 25px;
     border-bottom: 3px solid #c93e8e;
   }
-  html #middle > div .debox .g img {
+  html #middle > div .debox .z .g img {
     float: left;
     height: auto;
     max-width: 100%;
   }
-  html #middle > div .debox .g p {
+  html #middle > div .debox .z .g p {
     display: inline-block;
     float: left;
     margin: 13px 0;
@@ -947,26 +969,25 @@
     text-align: left;
     color: black;
   }
-  html #middle > div .debox .h {
+  html #middle > div .debox .z .h {
     text-align: left;
     font-size: 1.2em;
     color: black;
     padding: 16px 15px;
-    border-bottom: 1px solid #c93e8e;
     *zoom: 1;
   }
-  html #middle > div .debox .h:after {
+  html #middle > div .debox .z .h:after {
     display: table;
     content: "";
     line-height: 0;
     clear: both;
   }
-  html #middle > div .debox .h .h01 {
+  html #middle > div .debox .z .h .h01 {
     margin: 7px 0;
     float: left;
     width: 50%;
   }
-  html #middle > div .debox .h .h01 div {
+  html #middle > div .debox .z .h .h01 div {
     text-align: center;
     font-size: 1.4em;
     font-weight: bolder;
@@ -974,14 +995,14 @@
     padding-top: 5px;
     color: #c83e8e;
   }
-  html #middle > div .debox .h .h01 div p {
+  html #middle > div .debox .z .h .h01 div p {
     margin: 0;
     display: inline-block;
     padding: 0 15px;
     font-size: 1.8em;
     text-decoration: underline;
   }
-  html #middle > div .debox .h button {
+  html #middle > div .debox .z .h button {
     float: left;
     display: inline-block;
     width: 50%;
@@ -999,18 +1020,18 @@
     text-decoration: none;
     cursor: pointer;
   }
-  html #middle > div .debox .h button:focus {
+  html #middle > div .debox .z .h button:focus {
     outline: 0;
   }
-  html #middle > div .debox .h button:hover {
+  html #middle > div .debox .z .h button:hover {
     background-color: #9d1a6c;
     border-bottom: 8px solid #c83e8e;
   }
-  html #middle > div .debox .h button:before {
+  html #middle > div .debox .z .h button:before {
     display: inline-block;
     margin-right: 10px;
   }
-  html #middle > div .debox .h .btnover {
+  html #middle > div .debox .z .h .btnover {
     float: left;
     display: inline-block;
     width: 50%;
@@ -1028,15 +1049,15 @@
     text-decoration: none;
     cursor: pointer;
   }
-  html #middle > div .debox .h .btnover:focus {
+  html #middle > div .debox .z .h .btnover:focus {
     outline: 0;
   }
-  html #middle > div .debox .h .gybg {
+  html #middle > div .debox .z .h .gybg {
     display: block;
     background-color: #dfdfdf;
     padding: 7px;
   }
-  html #middle > div .debox .h .gybg p {
+  html #middle > div .debox .z .h .gybg p {
     margin: 0;
     font-size: 1.2em;
     color: black;

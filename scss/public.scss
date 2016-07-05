@@ -262,7 +262,22 @@ html {
 
         @include clearfix();
 
-        .e {
+        .ct {
+            text-align: left;
+            padding: 15px 0;
+            font-size: 1.2em;
+            color: black;
+            line-height: 1.8em;
+            border-bottom: 1px solid rgba(192, 192, 192, 1.00);
+          }
+
+
+        .z {
+          width: 100%;
+          margin-top: 5px;
+          border-bottom: 1px solid rgba(201, 62, 142, 1.00);
+
+          .e {
           width: 100%;
           float: left;
           padding: 7px 5px;
@@ -294,7 +309,6 @@ html {
           text-align: left;
 
           margin-top: 20px;
-          border-bottom: 1px solid rgba(201, 62, 142, 1.00);
 
           @include clearfix();
 
@@ -358,7 +372,6 @@ html {
           color: black;
 
           padding: 15px 10px;
-          border-bottom: 1px solid rgba(201, 62, 142, 1.00);
 
           @include clearfix();
 
@@ -456,6 +469,10 @@ html {
           }
 
         }
+
+        }
+
+
 
       }
 
@@ -854,8 +871,22 @@ html {
       .debox {
         margin: 40px 0;
 
-        @include split-left(20%, '.e', '.f');
-        .e {
+        .ct {
+            text-align: left;
+            padding: 15px 0;
+            font-size: 1.2em;
+            color: black;
+            line-height: 1.8em;
+            border-bottom: 1px solid rgba(192, 192, 192, 1.00);
+          }
+
+
+        .z {
+          margin-top: 5px;
+          border-bottom: 1px solid rgba(201, 62, 142, 1.00);
+
+          @include split-left(20%, '.e', '.f');
+          .e {
           float: left;
           padding: 7px 25px;
           border-bottom: 3px solid rgba(201, 62, 142, 1.00);
@@ -877,13 +908,12 @@ html {
             text-align: left;
             color: black;
           }
-        }
+          }
 
-        .f {
+          .f {
           text-align: left;
 
           margin-top: 10px;
-          border-bottom: 1px solid rgba(201, 62, 142, 1.00);
 
           p {
             margin: 0;
@@ -901,12 +931,12 @@ html {
             background-color: transparent;
             border: 0;
           }
-        }
+          }
 
 
-        @include split-left(28%, '.g', '.h');
+          @include split-left(28%, '.g', '.h');
 
-        .g {
+          .g {
           float: left;
           padding: 7px 25px;
           border-bottom: 3px solid rgba(201, 62, 142, 1.00);
@@ -929,15 +959,14 @@ html {
             text-align: left;
             color: black;
           }
-        }
+          }
 
-        .h {
+          .h {
           text-align: left;
           font-size: 1.2em;
           color: black;
 
           padding: 16px 15px;
-          border-bottom: 1px solid rgba(201, 62, 142, 1.00);
 
           @include clearfix();
 
@@ -1032,6 +1061,8 @@ html {
               font-size: 1.2em;
               color: black;
             }
+          }
+
           }
 
         }
